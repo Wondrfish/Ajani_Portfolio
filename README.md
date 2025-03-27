@@ -1,27 +1,39 @@
-# My Portfolio 👨‍💻 Hosted at AjaniJohnsonSWE.great-site.net 
+# Ajani Johnson's Portfolio 👨‍💻  
+**Live at: [AjaniJohnsonSWE.great-site.net](https://ajanijohnsonswe.great-site.net)**  
 
-**A responsive portfolio website built with PHP, HTML, CSS, and JavaScript**  
+[![PHP Version](https://img.shields.io/badge/PHP-8.1+-777BB4?logo=php)](https://php.net/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green)](https://opensource.org/licenses/MIT)
+[![Responsive Design](https://img.shields.io/badge/Responsive-Yes-brightgreen)]()
+[![Mobile Friendly](https://img.shields.io/badge/Mobile-Yes-9cf)]()
 
-![PHP Version](https://img.shields.io/badge/PHP-8.1+-777BB4?logo=php&logoColor=white)
-![License](https://img.shields.io/badge/License-MIT-green)
-![XAMPP](https://img.shields.io/badge/Server-XAMPP-FB7A24?logo=apache&logoColor=white)
-
+![Portfolio Screenshot](screenshot.png)
 
 ## 🌟 Key Features
-- ✅ **Modern, mobile-first design**  
-- ✅ **PHP-powered dynamic content**  
-- ✅ **Clean, semantic HTML5 markup**  
-- ✅ **Custom CSS styling**  
-- ✅ **Easy-to-update project sections**  
+- Works perfectly on all devices (phones, tablets, computers)
+- Looks great in all modern browsers
+- Easy-to-use touch navigation
+- Automatic dark/light mode support
+- Fast loading on any connection
 
-## 🛠️ Tech Stack
-| Category      | Technologies |
-|--------------|-------------|
-| **Frontend** | HTML5, CSS3  |
-| **Backend**  | PHP         |
-| **Server**   | XAMPP (Apache) |
+## 🛠️ Built With
+- **HTML5** - Clean semantic structure
+- **CSS3** - Modern styling
+- **PHP** - Dynamic content
+- **Bootstrap** - Responsive layout
 
-## 🚀 Quick Start
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/yourusername/your-portfolio.git
+## ✔️ Browser Support
+| Browser       | Works Perfectly |
+|--------------|----------------|
+| Chrome       | ✅ Yes         |
+| Firefox      | ✅ Yes         |
+| Safari       | ✅ Yes         |
+| Edge         | ✅ Yes         |
+
+## 📱 Device Support
+- Smartphones (all sizes)
+- Tablets
+- Laptops
+- Desktop computers
+
+## 🚀 Visit
+1. Visit [https://ajanijohnsonswe.great-site.net](https://ajanijohnsonswe.great-site.net)
