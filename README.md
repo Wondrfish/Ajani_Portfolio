@@ -6,7 +6,6 @@
 [![Responsive Design](https://img.shields.io/badge/Responsive-Yes-brightgreen)]()
 [![Mobile Friendly](https://img.shields.io/badge/Mobile-Yes-9cf)]()
 
-![Portfolio Screenshot](screenshot.png)
 
 ## 🌟 Key Features
 - Works perfectly on all devices (phones, tablets, computers)
@@ -17,9 +16,8 @@
 
 ## 🛠️ Built With
 - **HTML5** - Clean semantic structure
-- **CSS3** - Modern styling
+- **CSS** - Modern styling
 - **PHP** - Dynamic content
-- **Bootstrap** - Responsive layout
 
 ## ✔️ Browser Support
 | Browser       | Works Perfectly |
