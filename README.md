@@ -1,7 +1,7 @@
 # Ajani Johnson's Portfolio 👨‍💻  
 **Live at: [AjaniJohnsonSWE.great-site.net](https://ajanijohnsonswe.great-site.net/)**  
 
-[![PHP Version](https://img.shields.io/badge/PHP-8.1+-777BB4?logo=php)](https://php.net/)
+[![PHP Version](https://img.shields.io/badge/PHP-8.2+-777BB4?logo=php)](https://php.net/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green)](https://opensource.org/licenses/MIT)
 [![Responsive Design](https://img.shields.io/badge/Responsive-Yes-brightgreen)]()
 [![Mobile Friendly](https://img.shields.io/badge/Mobile-Yes-9cf)]()
