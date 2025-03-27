@@ -1,0 +1,437 @@
+/* Base Reset and Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a1a;
+    color: #fcfcfc;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+}
+
+/* Header Styling */
+.portfolio-container {
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1a1a1a;
+}
+
+.portfolio-container h1 {
+    font-size: clamp(2.5rem, 6vw, 4rem);
+    color: #fcfcfc;
+    text-align: center;
+    position: relative;
+    padding-bottom: 15px;
+}
+
+
+
+/* Responsive Container */
+
+/* Responsive Typography */
+h1 {
+    font-size: clamp(2rem, 5vw, 3.5rem);
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+h2 {
+    font-size: clamp(1.5rem, 4vw, 2.5rem);
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+/* About Me Section */
+.about-me {
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Profile Header Styling */
+.profile-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    text-align: center;
+}
+
+/* Profile and About Me Container */
+.profile-about-container {
+    display: flex;
+    align-items: center; /* Align items vertically */
+    justify-content: space-between; /* Space between the profile picture and "About Me" */
+    gap: 20px; /* Space between the profile picture and the "About Me" section */
+    flex-wrap: wrap; /* Ensure responsiveness on smaller screens */
+    margin-top: 20px;
+}
+
+.profile-pic {
+    width: 150px; /* Profile picture size */
+    height: 150px;
+    border-radius: 50%; /* Make the image circular */
+    border: 3px solid #fcfcfc; /* Add a border for better visibility */
+    object-fit: cover; /* Ensure the image scales properly */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+    transition: transform 0.3s ease;
+}
+
+.profile-pic:hover {
+    transform: scale(1.1); /* Slight zoom effect on hover */
+}
+
+.about-me {
+    flex: 1; /* Allow the "About Me" section to take up remaining space */
+    max-width: 600px; /* Limit the width of the "About Me" section */
+}
+
+.about-me-left {
+    text-align: left; /* Align text to the left */
+}
+
+.about-me-left h2 {
+    text-align: left; /* Align the heading to the left */
+}
+
+.about-me-left p {
+    text-align: left; /* Align the paragraph to the left */
+}
+
+.section h2 {
+    font-size: clamp(1.8rem, 5vw, 3rem);
+    color: #fcfcfc;
+    margin-bottom: 20px;
+    text-align: center;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+
+
+.section p {
+    color: #bfbfbf;
+    line-height: 1.6;
+    text-align: center;
+    font-size: clamp(0.9rem, 3vw, 1.1rem);
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Responsive Grids */
+.portfolio-grid, 
+.tech-stack-grid, 
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    width: 100%;
+}
+
+/* Portfolio and Tech Stack Items */
+.portfolio-box, 
+.tech-stack-item {
+    background-color: #2a2a2a;
+    border: 1px solid #454545;
+    border-radius: 10px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    transition: all 0.3s ease;
+    height: 100%;
+}
+
+.portfolio-box:hover, 
+.tech-stack-item:hover {
+    transform: translateY(-4.5px);
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* Tech Stack Specific Styling */
+.tech-stack-category {
+    background-color: #1a1a1a;
+    border: 1px solid #454545;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.tech-stack-items {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+}
+
+.tech-stack-content {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    width: 100%;
+}
+
+.tech-stack-content img {
+    width: 50px;
+    height: 50px;
+    flex-shrink: 0;
+}
+
+.tech-stack-text {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.tech-stack-text span {
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.tech-description {
+    font-size: 0.8rem;
+    color: #bfbfbf;
+    line-height: 1.3;
+}
+
+/* Responsive Image Handling */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Media Queries for Additional Responsiveness */
+@media screen and (max-width: 768px) {
+    .portfolio-container, 
+    .about-me {
+        padding: 20px 10px;
+    }
+
+    .portfolio-grid, 
+    .tech-stack-grid, 
+    .project-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .tech-stack-category {
+        flex-basis: 100%;
+    }
+
+    h1, h2 {
+        text-align: center;
+    }
+
+    .section {
+        padding: 20px;
+    }
+
+    .section h2::after,
+    .portfolio-container h1::after {
+        width: 60px;
+    }
+
+    .profile-about-container {
+        flex-direction: column; /* Stack items vertically on smaller screens */
+        align-items: center; /* Center items */
+    }
+
+    .about-me {
+        text-align: center; /* Center text on smaller screens */
+    }
+
+    .about-me-left h2,
+    .about-me-left p {
+        text-align: center; /* Center text on smaller screens */
+    }
+}
+
+/* Accessibility and Focus States */
+.portfolio-box:focus, 
+.tech-stack-item:focus {
+    outline: 2px solid #fcfcfc;
+    outline-offset: 3px;
+}
+
+/* Smooth Transitions */
+* {
+    transition: all 0.3s ease;
+}
+
+.footer {
+    width: 100%;
+    background-color: #1a1a1a;
+    padding: 20px 0;
+    border-top: 1px solid #454545;
+}
+
+.footer-container {
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #2a2a2a;
+    border: 1px solid #454545;
+    border-radius: 10px;
+    padding: 20px;
+    transition: all 0.3s ease;
+}
+
+.footer-content:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.copyright {
+    color: #fcfcfc;
+    font-size: 0.9rem;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    width: 100%;
+}
+
+.footer-link {
+    color: #fcfcfc;
+    text-decoration: none;
+    font-size: 0.9rem;
+    padding: 8px 15px;
+    background-color: #1a1a1a;
+    border: 1px solid #454545;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.footer-link:hover {
+    background-color: #454545;
+    transform: translateY(-3px);
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+    .footer-content {
+        padding: 15px;
+    }
+
+    .footer-links {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-link {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+}
+
+/* Accessibility and Focus */
+.section:focus-within {
+    outline: 2px solid #fcfcfc;
+    outline-offset: 5px;
+}
+
+/* Project Section Styling */
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    width: 100%;
+}
+
+.project-box {
+    background-color: #2a2a2a;
+    border: 1px solid #454545;
+    border-radius: 10px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    transition: all 0.3s ease;
+    height: 100%;
+}
+
+.project-image {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-image img {
+    max-width: 80px;
+    max-height: 80px;
+    object-fit: contain;
+}
+
+.project-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.project-content h3 {
+    color: #fcfcfc;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.project-content p {
+    color: #bfbfbf;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+.project-content a {
+    color: #fcfcfc;
+    text-decoration: none;
+    background-color: #1a1a1a;
+    border: 1px solid #454545;
+    border-radius: 8px;
+    padding: 8px 15px;
+    transition: all 0.3s ease;
+    margin-top: auto;
+}
+
+.project-content a:hover {
+    background-color: #454545;
+    transform: translateY(-3px);
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+    .project-grid {
+        grid-template-columns: 1fr;
+    }
+}
