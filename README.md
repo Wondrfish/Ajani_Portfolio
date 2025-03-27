@@ -1,5 +1,5 @@
 # Ajani Johnson's Portfolio 👨‍💻  
-**Live at: [AjaniJohnsonSWE.great-site.net](https://ajanijohnsonswe.great-site.net/)**  
+**Live at: [AjaniJohnsonSWE.great-site.net](http://ajanijohnsonswe.great-site.net/)**  
 
 [![PHP Version](https://img.shields.io/badge/PHP-8.2+-777BB4?logo=php)](https://php.net/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green)](https://opensource.org/licenses/MIT)
