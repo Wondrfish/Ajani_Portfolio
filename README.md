@@ -33,5 +33,7 @@
 - Laptops
 - Desktop computers
 
+- hosted by infinityfree
+
 ## 🚀 Visit
 1. Visit [https://ajanijohnsonswe.great-site.net](https://ajanijohnsonswe.great-site.net)
